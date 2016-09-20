@@ -2,8 +2,8 @@
 //  MealTableViewCell.swift
 //  FoodTracker
 //
-//  Created by Jane Appleseed on 5/27/15.
-//  Copyright © 2015 Apple Inc. All rights reserved.
+//  Created by Elena Wiener on 5/26/16.
+//  Copyright © 2016 Apple Inc. All rights reserved.
 //  See LICENSE.txt for this sample’s licensing information.
 //
 
@@ -21,7 +21,7 @@ class MealTableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    override func setSelected(selected: Bool, animated: Bool) {
+    override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
